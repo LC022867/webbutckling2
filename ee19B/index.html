@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzlet</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Quizzlet</h1>
+    </header>
+    <main>
+        <form>
+            <div class="question">
+                <p>Hur mycket väger en kossa?</p>
+                <label>
+                    <input type="radio" name="question1" data-points="0"> 700-800kg
+                </label>
+                <label>
+                    <input type="radio" name="question1" data-points="0"> 200-400kg
+                </label>
+                <label>
+                    <input type="radio" name="question1" data-points="1"> 400–450 kg
+                </label>
+                <label>
+                    <input type="radio" name="question1" data-points="0"> 300-400kg
+                </label>
+            </div>
+            <div class="question">
+                <p>Vad drinker kossor?</p>
+                <label>
+                    <input type="radio" name="question2" data-points="1"> vatten
+                </label>
+                <label>
+                    <input type="radio" name="question2" data-points="0"> mjölk
+                </label>
+                <label>
+                    <input type="radio" name="question2" data-points="0"> coca-cola
+                </label>
+                <label>
+                    <input type="radio" name="question2" data-points="0"> öl
+                </label>
+            </div>
+            <div class="question">
+                <p>Vem är den bästa Waifu i Genshin Impact?</p>
+                <label>
+                    <input type="radio" name="question3" data-points="0"> Ganyu
+                </label>
+                <label>
+                    <input type="radio" name="question3" data-points="0"> Ayaka
+                </label>
+                <label>
+                    <input type="radio" name="question3" data-points="0"> Eula
+                </label>
+                <label>
+                    <input type="radio" name="question3" data-points="1"> Hu Tao
+                </label>
+            </div>
+
+            <button>Submit!</button>
+        </form>
+        <div class="result-box hidden">
+            <h2>Congratulations!</h2>
+            <p>You got 2/3 points right</p>
+            <button>Try again!</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
